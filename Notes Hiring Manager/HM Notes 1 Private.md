@@ -18,7 +18,7 @@
 > - Main: 
 >   - Discount reporting dashboard json to excel
 >   - Identified fedXFiles are being failed mostly due to a field that is not important to us 
->   - WFS Utils and debugging the main issue RCA recent migration 
+>   - WFS Utils and debugging the main item missing issue RCA recent migration 
 >   - WFS Utils: for doing repeatitive tasks (update po status, item setup etc) 
 > - Other:
 >   - TRG was about to be shelved but I suggested a solution with no extra cost 
@@ -47,7 +47,7 @@
 - About a time when you had to work with someone outside of your team.
   > Wakanda, Discounts, LAAS
 - Had some conflict with co-workers and how did you solve it?
-  > PR approval without tests or screenshots, different communication styles (logging it at different hours)
+  > using diff CRQ, copying training test, PR approval without tests or screenshots
 - Can you give an example of a time when you disagreed with a team member? How did you handle the situation and what was the outcome?
 - Tell me about the time when opposing views ended up having a positive result.
   > - Adding bulk feature and reporting for discount creation (i wanted to add but team did not), finally added it in roadmap for next release
@@ -64,10 +64,10 @@
 - Example of something you created end-to-end.
 - Tell me about a time where you helped people.
 - Tell me about a challenging project (your learnings and the impact created)
-  > Wakanda, Discount
+  > Wakanda, Discount, LAAS
 - Tell me about a time where you did something that was not your job responsibility.
 - Something you did out of your comfort zone.
-  > infra procur, deployment pipeline setup 
+  > infra procur, deployment pipeline setup, youtube video
 - Any ideas you took from another team and implemented in your team.
   > kafka disaster recovery, Gen AI, sprint planning, 
   
@@ -76,7 +76,10 @@
 
 ## 5. Problem Solving and Technical Challenges
 - Tell me about the hardest technical problem you debugged.
-  > IQS time out exception, Out of memory in pod for approve discounts, discount CCM override manual, nullpointer exception due to parallel stream (working fine in debugger, intermittent in stage)
+  > - IQS time out exception, Out of memory in pod for approve discounts, WCNP discount CCM override manual, nullpointer exception due to parallel stream (working fine in debugger, intermittent in stage)
+  > - Deployment pipeline setup for multitenant
+  > - Error handling for large files: how to send files to 3rd prty, proper error message,store audit in DB,  used gen AI to summarise the error message
+  
 - Tell me about a time when you identified a major problem in your workplace. How did you go about solving it?
   > multiple sprints in a day, lot of manual tasks during support wrote utils repo
 
@@ -154,3 +157,8 @@
   > Weakness: hard for me to give negative feedback to people, Likes to focus on 1 thing at a time, Needs appreciation
 
 
+## 10. Mix
+* Mentoring
+    * I mentored two interns, providing them with the guidance and support they needed to succeed. This included regular check-ins, sharing feedback, and helping them navigate their career paths. Both interns successfully transitioned to full-time positions within the team.
+    * Rama raman: documentation, talk to director, team change
+    * Ashish: Time management, overwhelmed alone developer, taught backend
